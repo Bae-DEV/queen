@@ -1,0 +1,15 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonJS",
+    "outDir": "./dist",
+    "target": "es2018",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src"
+  ]
+}

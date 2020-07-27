@@ -1,0 +1,36 @@
+{
+  "name": "queen",
+  "version": "0.0.1",
+  "description": "Open source Discord bot",
+  "main": "./dist/src/app.js",
+  "scripts": {
+    "start": "node dist/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ba-e/queen.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "discord-akairo",
+    "akairo"
+  ],
+  "author": "ba-e",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ba-e/queen/issues"
+  },
+  "homepage": "https://github.com/ba-e/queen#readme",
+  "dependencies": {
+    "@types/node": "^14.0.26",
+    "@types/ws": "^7.2.6",
+    "chalk": "^4.1.0",
+    "discord-akairo": "^8.0.0",
+    "discord.js": "^12.2.0",
+    "eslint": "^7.5.0",
+    "hastebin-gen": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}

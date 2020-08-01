@@ -9,7 +9,7 @@ export default class extends Command {
       description: {
         usage: "ping",
         examples: ["ping"],
-        description: "Gives bot latency",
+        description: "",
       },
       cooldown: 9000,
       ratelimit: 1,

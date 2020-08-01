@@ -2,7 +2,7 @@ import { Command } from "discord-akairo";
 import { Message } from "discord.js";
 import hastebin from "hastebin-gen";
 import { MessageEmbed } from "discord.js";
-import { bot } from "../../config.json";
+import { bot } from "../../../config.json";
 
 export default class extends Command {
   constructor() {

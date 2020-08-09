@@ -13,6 +13,7 @@ first you need to install [Node.js](https://nodejs.org) then download [TypeScrip
 **run step by step at the command line:**
 - `npm install`
 - `npm install -g typescript` (need to be ADMINISTRATOR)
+- `tsc` for compile to JavaScript
 - `npm start` or `node dist/src/index.js` for run
 
 ## Support

@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Queen Open-source Discord Bot
 
-You can use the [editor on GitHub](https://github.com/ba-e/queen/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Status:
+- Alpha build 0.0.3
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Requirements:
+- [TypeScript](https://www.typescriptlang.org)
+- [Node.js minimum LTS](https://nodejs.org) 
 
-### Markdown
+## Setup:
+first you need to install [Node.js](https://nodejs.org) then download [TypeScript](https://www.typescriptlang.org) and install the npm packages.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**run step by step at the command line:**
+- `npm install`
+- `npm install -g typescript` (need to be ADMINISTRATOR)
+- `npm start` or `node dist/src/index.js` for run
 
-```markdown
-Syntax highlighted code block
+## Support
+You can come to my [Discord server](https://discord.gg/pqPhgms) for problems or [open an issue](https://github.com/ba-e/queen/issues).
 
-# Header 1
-## Header 2
-### Header 3
+## Important
+This is my first TypeScript project so some issues might arise so you can help me solve them or open a [PR](https://github.com/ba-e/queen/pulls). 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ba-e/queen/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Ideas
+- [ ] [Akairo Inhibitors](https://discord-akairo.github.io/#/docs/main/master/inhibitors/inhibtypes)(Feature)
+- [ ] [Argument Prompting](https://discord-akairo.github.io/#/docs/main/master/arguments/prompts)(Feature)
+- [ ] Using database(Feature)

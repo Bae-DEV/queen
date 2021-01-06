@@ -1,6 +1,6 @@
 {
   "name": "queen",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Open source Discord bot",
   "main": "./dist/src/app.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ba-e/queen.git"
+    "url": "git+https://github.com/baen/queen.git"
   },
   "keywords": [
     "bot",
@@ -16,22 +16,21 @@
     "discord-akairo",
     "akairo"
   ],
-  "author": "ba-e",
+  "author": "Bae (baen)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ba-e/queen/issues"
+    "url": "https://github.com/baen/queen/issues"
   },
-  "homepage": "https://github.com/ba-e/queen#readme",
+  "homepage": "https://github.com/baen/queen#readme",
   "dependencies": {
-    "@types/node": "^14.0.26",
-    "@types/ws": "^7.2.6",
-    "axios": "^0.19.2",
+    "@types/node": "^14.14.20",
+    "@types/ws": "^7.4.0",
+    "axios": "^0.21.1",
     "chalk": "^4.1.0",
     "discord-akairo": "^8.0.0",
-    "discord.js": "^12.2.0",
-    "eslint": "^7.5.0",
+    "discord.js": "^12.5.1",
     "hastebin-gen": "^2.0.5",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.7"
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
   }
 }

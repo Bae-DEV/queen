@@ -1,28 +1,25 @@
-# Queen Open-source Discord Bot
+# Queen Discord Bot 👑
 
-## Status:
-- Alpha build 0.0.3
+**An example bot for beginners**
 
-## Requirements:
-- [TypeScript](https://www.typescriptlang.org)
-- [Node.js minimum LTS](https://nodejs.org) 
+## Setup
 
-## Setup:
-first you need to install [Node.js](https://nodejs.org) then download [TypeScript](https://www.typescriptlang.org) and install the npm packages.
+- Configure it [config.json](https://github.com/baen/queen/blob/master/config.json)
+- Download [Node.js minimum LTS](https://nodejs.org) 
 
-**run step by step at the command line:**
+**Run step by step at the command line**
 - `npm install`
-- `npm install -g typescript` (need to be ADMINISTRATOR)
-- `tsc` for compile to JavaScript
-- `npm start` or `node dist/src/index.js` for run
-
+- `npm start` or `node src/index.js` for run
+- ![SuccesImage](https://user-images.githubusercontent.com/50950966/103894875-936a5000-5100-11eb-928f-dfa244bd8d09.gif)
+- └ And you're done ✅
 ## Support
-You can come to my [Discord server](https://discord.gg/pqPhgms) for problems or [open an issue](https://github.com/ba-e/queen/issues).
+You can join my [Discord server](https://bae.codes/discord) or [open a issue](https://github.com/baen/queen/issues).
 
-## Important
-This is my first TypeScript project so some issues might arise so you can help me solve them or open a [PR](https://github.com/ba-e/queen/pulls). 
 
 ## Ideas
 - [ ] [Akairo Inhibitors](https://discord-akairo.github.io/#/docs/main/master/inhibitors/inhibtypes)(Feature)
 - [ ] [Argument Prompting](https://discord-akairo.github.io/#/docs/main/master/arguments/prompts)(Feature)
 - [ ] Using database(Feature)
+
+## License
+- [MIT](https://github.com/baen/queen/blob/master/LICENSE)

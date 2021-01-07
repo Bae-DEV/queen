@@ -10,11 +10,10 @@
 **Run step by step at the command line**
 - `npm install`
 - `npm start` or `node src/index.js` for run
+- ![SuccesImage](https://user-images.githubusercontent.com/50950966/103894875-936a5000-5100-11eb-928f-dfa244bd8d09.gif)
 - └ And you're done ✅
-  ![SuccesImage](https://user-images.githubusercontent.com/50950966/103894875-936a5000-5100-11eb-928f-dfa244bd8d09.gif)
-
 ## Support
-You can join my [Discord server](https://bae.codes/discord) for problems or [open an issue](https://github.com/baen/queen/issues).
+You can join my [Discord server](https://bae.codes/discord) or [open a issue](https://github.com/baen/queen/issues).
 
 
 ## Ideas

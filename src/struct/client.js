@@ -1,14 +1,13 @@
-import {
+const {
   AkairoClient,
   CommandHandler,
   ListenerHandler,
   Command,
-} from "discord-akairo";
-import { bot } from "../../config.json";
+} = require("discord-akairo");
+const { bot } = require("../../config.json");
+const Util = require("../util/util");
 
-export default class extends AkairoClient {
-  commandHandler: CommandHandler;
-  listenerHandler: ListenerHandler;
+module.exports = class extends AkairoClient {
   constructor() {
     super(
       {
@@ -33,17 +32,18 @@ export default class extends AkairoClient {
       fetchMembers: true,
       automateCategories: true,
       defaultCooldown: 3000,
-      directory: "./dist/src/commands/",
+      directory: "./src/commands/",
     });
 
     this.listenerHandler = new ListenerHandler(this, {
       directory: __dirname + "/listeners/",
     });
+    
+    this.util = new Util(this);
 
-    this.init();
   }
 
-  private init(): void {
+  _init() {
     this.commandHandler.useListenerHandler(this.listenerHandler);
 
     this.listenerHandler.setEmitters({
@@ -54,9 +54,8 @@ export default class extends AkairoClient {
 
     this.listenerHandler.loadAll();
     this.commandHandler.loadAll();
-  }
 
-  async start(): Promise<void> {
-    await super.login(bot.token);
+    return this.login(bot.token);
   }
 }
+

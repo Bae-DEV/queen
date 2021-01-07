@@ -1,7 +1,7 @@
 {
     "bot": {
-        "token": "Bot Token",
-        "owners": ["OwnerID"],
+        "token": "TOKEN",
+        "owners": ["OWNERID"],
         "prefix": "q.",
         "embedColor": "#03fcbe"
     }

@@ -9,7 +9,8 @@ module.exports = class extends ClientUtil {
   
   /**
    * Modified MessageEmbed
-   * @param {MessageEmbed} returns colored embed
+   * @param {data} embed data
+   * @returns colored embed
    */
    
   embed(data) {

@@ -1,5 +1,9 @@
 # Queen Discord Bot 👑
 
+[![Depfu](https://badges.depfu.com/badges/34af2d0df020d8ab8deff9a76737fdfe/status.svg)](https://depfu.com)
+[![Depfu](https://badges.depfu.com/badges/34af2d0df020d8ab8deff9a76737fdfe/overview.svg)](https://depfu.com/github/baen/queen?project_id=20844)
+[![Depfu](https://badges.depfu.com/badges/34af2d0df020d8ab8deff9a76737fdfe/count.svg)](https://depfu.com/github/baen/queen?project_id=20844)
+
 **An example bot for beginners**
 
 ## Setup

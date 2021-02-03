@@ -22,7 +22,6 @@ module.exports = class extends Command {
 
   exec(ctx, args) {
     axios.get(`https://some-random-api.ml/img/fox`).then((response) => {
-     
       const embed = this.client.util.embed()  
         .setImage(response.data?.link)
         .setTitle(
@@ -31,7 +30,7 @@ module.exports = class extends Command {
             : `${args.member.user?.username} a fox right now`
         )
           
-     message.util.send(embed)
+    	ctx.util.send(embed)
     });
   }
 }
